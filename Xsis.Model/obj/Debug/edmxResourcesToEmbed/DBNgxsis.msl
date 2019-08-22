@@ -1,0 +1,804 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="NgxsisDBModelStoreContainer" CdmEntityContainer="NgxsisDBEntities">
+    <EntitySetMapping Name="C__MigrationHistory">
+      <EntityTypeMapping TypeName="NgxsisDBModel.C__MigrationHistory">
+        <MappingFragment StoreEntitySet="__MigrationHistory">
+          <ScalarProperty Name="MigrationId" ColumnName="MigrationId" />
+          <ScalarProperty Name="ContextKey" ColumnName="ContextKey" />
+          <ScalarProperty Name="Model" ColumnName="Model" />
+          <ScalarProperty Name="ProductVersion" ColumnName="ProductVersion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="x_addrbook">
+      <EntityTypeMapping TypeName="NgxsisDBModel.x_addrbook">
+        <MappingFragment StoreEntitySet="x_addrbook">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="created_on" ColumnName="created_on" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="modified_on" ColumnName="modified_on" />
+          <ScalarProperty Name="deleted_by" ColumnName="deleted_by" />
+          <ScalarProperty Name="deleted_on" ColumnName="deleted_on" />
+          <ScalarProperty Name="is_delete" ColumnName="is_delete" />
+          <ScalarProperty Name="is_locked" ColumnName="is_locked" />
+          <ScalarProperty Name="attempt" ColumnName="attempt" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="abuid" ColumnName="abuid" />
+          <ScalarProperty Name="abpwd" ColumnName="abpwd" />
+          <ScalarProperty Name="fp_token" ColumnName="fp_token" />
+          <ScalarProperty Name="fp_expired_date" ColumnName="fp_expired_date" />
+          <ScalarProperty Name="fp_counter" ColumnName="fp_counter" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="x_address">
+      <EntityTypeMapping TypeName="NgxsisDBModel.x_address">
+        <MappingFragment StoreEntitySet="x_address">
+          <ScalarProperty Name="address_id" ColumnName="address_id" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="created_on" ColumnName="created_on" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="modified_on" ColumnName="modified_on" />
+          <ScalarProperty Name="deleted_by" ColumnName="deleted_by" />
+          <ScalarProperty Name="deleted_on" ColumnName="deleted_on" />
+          <ScalarProperty Name="is_delete" ColumnName="is_delete" />
+          <ScalarProperty Name="address1" ColumnName="address1" />
+          <ScalarProperty Name="postalcode1" ColumnName="postalcode1" />
+          <ScalarProperty Name="rt1" ColumnName="rt1" />
+          <ScalarProperty Name="rw1" ColumnName="rw1" />
+          <ScalarProperty Name="kelurahan1" ColumnName="kelurahan1" />
+          <ScalarProperty Name="kecamatan1" ColumnName="kecamatan1" />
+          <ScalarProperty Name="region1" ColumnName="region1" />
+          <ScalarProperty Name="address2" ColumnName="address2" />
+          <ScalarProperty Name="postalcode2" ColumnName="postalcode2" />
+          <ScalarProperty Name="rt2" ColumnName="rt2" />
+          <ScalarProperty Name="rw2" ColumnName="rw2" />
+          <ScalarProperty Name="kelurahan2" ColumnName="kelurahan2" />
+          <ScalarProperty Name="kecamatan2" ColumnName="kecamatan2" />
+          <ScalarProperty Name="region2" ColumnName="region2" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="x_biodata">
+      <EntityTypeMapping TypeName="NgxsisDBModel.x_biodata">
+        <MappingFragment StoreEntitySet="x_biodata">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="created_on" ColumnName="created_on" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="modified_on" ColumnName="modified_on" />
+          <ScalarProperty Name="deleted_by" ColumnName="deleted_by" />
+          <ScalarProperty Name="deleted_on" ColumnName="deleted_on" />
+          <ScalarProperty Name="is_delete" ColumnName="is_delete" />
+          <ScalarProperty Name="fullname" ColumnName="fullname" />
+          <ScalarProperty Name="nick_name" ColumnName="nick_name" />
+          <ScalarProperty Name="pob" ColumnName="pob" />
+          <ScalarProperty Name="dob" ColumnName="dob" />
+          <ScalarProperty Name="gender" ColumnName="gender" />
+          <ScalarProperty Name="religion_id" ColumnName="religion_id" />
+          <ScalarProperty Name="high" ColumnName="high" />
+          <ScalarProperty Name="weight" ColumnName="weight" />
+          <ScalarProperty Name="nationality" ColumnName="nationality" />
+          <ScalarProperty Name="ethnic" ColumnName="ethnic" />
+          <ScalarProperty Name="hobby" ColumnName="hobby" />
+          <ScalarProperty Name="identity_type_id" ColumnName="identity_type_id" />
+          <ScalarProperty Name="identity_no" ColumnName="identity_no" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="phone_number1" ColumnName="phone_number1" />
+          <ScalarProperty Name="phone_number2" ColumnName="phone_number2" />
+          <ScalarProperty Name="parent_phone_number" ColumnName="parent_phone_number" />
+          <ScalarProperty Name="child_sequence" ColumnName="child_sequence" />
+          <ScalarProperty Name="how_many_brothers" ColumnName="how_many_brothers" />
+          <ScalarProperty Name="marital_status_id" ColumnName="marital_status_id" />
+          <ScalarProperty Name="addrbook_id" ColumnName="addrbook_id" />
+          <ScalarProperty Name="token" ColumnName="token" />
+          <ScalarProperty Name="expired_token" ColumnName="expired_token" />
+          <ScalarProperty Name="mariage_year" ColumnName="mariage_year" />
+          <ScalarProperty Name="company_id" ColumnName="company_id" />
+          <ScalarProperty Name="is_process" ColumnName="is_process" />
+          <ScalarProperty Name="is_complete" ColumnName="is_complete" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="x_biodata_attachment">
+      <EntityTypeMapping TypeName="NgxsisDBModel.x_biodata_attachment">
+        <MappingFragment StoreEntitySet="x_biodata_attachment">
+          <ScalarProperty Name="biodata_attachment_id" ColumnName="biodata_attachment_id" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="create_on" ColumnName="create_on" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="modified_on" ColumnName="modified_on" />
+          <ScalarProperty Name="delete_by" ColumnName="delete_by" />
+          <ScalarProperty Name="delete_on" ColumnName="delete_on" />
+          <ScalarProperty Name="is_delete" ColumnName="is_delete" />
+          <ScalarProperty Name="biodata_id" ColumnName="biodata_id" />
+          <ScalarProperty Name="file_name" ColumnName="file_name" />
+          <ScalarProperty Name="file_path" ColumnName="file_path" />
+          <ScalarProperty Name="notes" ColumnName="notes" />
+          <ScalarProperty Name="is_photo" ColumnName="is_photo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="x_catatan">
+      <EntityTypeMapping TypeName="NgxsisDBModel.x_catatan">
+        <MappingFragment StoreEntitySet="x_catatan">
+          <ScalarProperty Name="catatan_id" ColumnName="catatan_id" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="created_on" ColumnName="created_on" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="modified_on" ColumnName="modified_on" />
+          <ScalarProperty Name="deleted_by" ColumnName="deleted_by" />
+          <ScalarProperty Name="deleted_on" ColumnName="deleted_on" />
+          <ScalarProperty Name="is_delete" ColumnName="is_delete" />
+          <ScalarProperty Name="biodata_id" ColumnName="biodata_id" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="notes_type_id" ColumnName="notes_type_id" />
+          <ScalarProperty Name="notes" ColumnName="notes" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="x_company">
+      <EntityTypeMapping TypeName="NgxsisDBModel.x_company">
+        <MappingFragment StoreEntitySet="x_company">
+          <ScalarProperty Name="company_id" ColumnName="company_id" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="created_on" ColumnName="created_on" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="modified_on" ColumnName="modified_on" />
+          <ScalarProperty Name="deleted_by" ColumnName="deleted_by" />
+          <ScalarProperty Name="deleted_on" ColumnName="deleted_on" />
+          <ScalarProperty Name="is_delete" ColumnName="is_delete" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="description" ColumnName="description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="x_educational_level">
+      <EntityTypeMapping TypeName="NgxsisDBModel.x_educational_level">
+        <MappingFragment StoreEntitySet="x_educational_level">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="created_on" ColumnName="created_on" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="modified_on" ColumnName="modified_on" />
+          <ScalarProperty Name="deleted_by" ColumnName="deleted_by" />
+          <ScalarProperty Name="deleted_on" ColumnName="deleted_on" />
+          <ScalarProperty Name="is_delete" ColumnName="is_delete" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="description" ColumnName="description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="x_family_relation">
+      <EntityTypeMapping TypeName="NgxsisDBModel.x_family_relation">
+        <MappingFragment StoreEntitySet="x_family_relation">
+          <ScalarProperty Name="family_relation_id" ColumnName="family_relation_id" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="created_on" ColumnName="created_on" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="modified_on" ColumnName="modified_on" />
+          <ScalarProperty Name="deleted_by" ColumnName="deleted_by" />
+          <ScalarProperty Name="deleted_on" ColumnName="deleted_on" />
+          <ScalarProperty Name="is_delete" ColumnName="is_delete" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="family_tree_type_id" ColumnName="family_tree_type_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="x_family_tree">
+      <EntityTypeMapping TypeName="NgxsisDBModel.x_family_tree">
+        <MappingFragment StoreEntitySet="x_family_tree">
+          <ScalarProperty Name="family_tree_id" ColumnName="family_tree_id" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="created_on" ColumnName="created_on" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="modified_on" ColumnName="modified_on" />
+          <ScalarProperty Name="deleted_by" ColumnName="deleted_by" />
+          <ScalarProperty Name="deleted_on" ColumnName="deleted_on" />
+          <ScalarProperty Name="is_delete" ColumnName="is_delete" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="description" ColumnName="description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="x_identity_type">
+      <EntityTypeMapping TypeName="NgxsisDBModel.x_identity_type">
+        <MappingFragment StoreEntitySet="x_identity_type">
+          <ScalarProperty Name="identity_type_id" ColumnName="identity_type_id" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="created_on" ColumnName="created_on" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="modified_on" ColumnName="modified_on" />
+          <ScalarProperty Name="deleted_by" ColumnName="deleted_by" />
+          <ScalarProperty Name="deleted_on" ColumnName="deleted_on" />
+          <ScalarProperty Name="is_delete" ColumnName="is_delete" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="description" ColumnName="description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="x_keahlian">
+      <EntityTypeMapping TypeName="NgxsisDBModel.x_keahlian">
+        <MappingFragment StoreEntitySet="x_keahlian">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="created_on" ColumnName="created_on" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="modified_on" ColumnName="modified_on" />
+          <ScalarProperty Name="deleted_by" ColumnName="deleted_by" />
+          <ScalarProperty Name="deleted_on" ColumnName="deleted_on" />
+          <ScalarProperty Name="is_delete" ColumnName="is_delete" />
+          <ScalarProperty Name="biodata_id" ColumnName="biodata_id" />
+          <ScalarProperty Name="skill_name" ColumnName="skill_name" />
+          <ScalarProperty Name="skill_level_id" ColumnName="skill_level_id" />
+          <ScalarProperty Name="notes" ColumnName="notes" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="x_keluarga">
+      <EntityTypeMapping TypeName="NgxsisDBModel.x_keluarga">
+        <MappingFragment StoreEntitySet="x_keluarga">
+          <ScalarProperty Name="keluarga_id" ColumnName="keluarga_id" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="created_on" ColumnName="created_on" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="modified_on" ColumnName="modified_on" />
+          <ScalarProperty Name="deleted_by" ColumnName="deleted_by" />
+          <ScalarProperty Name="deleted_on" ColumnName="deleted_on" />
+          <ScalarProperty Name="is_delete" ColumnName="is_delete" />
+          <ScalarProperty Name="biodata_id" ColumnName="biodata_id" />
+          <ScalarProperty Name="familiy_tree_type_id" ColumnName="familiy_tree_type_id" />
+          <ScalarProperty Name="family_relation_id" ColumnName="family_relation_id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="gender" ColumnName="gender" />
+          <ScalarProperty Name="dob" ColumnName="dob" />
+          <ScalarProperty Name="education_level_id" ColumnName="education_level_id" />
+          <ScalarProperty Name="job" ColumnName="job" />
+          <ScalarProperty Name="notes" ColumnName="notes" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="x_keterangan_tambahan">
+      <EntityTypeMapping TypeName="NgxsisDBModel.x_keterangan_tambahan">
+        <MappingFragment StoreEntitySet="x_keterangan_tambahan">
+          <ScalarProperty Name="keterangan_tambahan_id" ColumnName="keterangan_tambahan_id" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="created_on" ColumnName="created_on" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="modified_on" ColumnName="modified_on" />
+          <ScalarProperty Name="deleted_by" ColumnName="deleted_by" />
+          <ScalarProperty Name="deleted_on" ColumnName="deleted_on" />
+          <ScalarProperty Name="is_delete" ColumnName="is_delete" />
+          <ScalarProperty Name="biodata_id" ColumnName="biodata_id" />
+          <ScalarProperty Name="emergency_contact_name" ColumnName="emergency_contact_name" />
+          <ScalarProperty Name="emergency_contact_phone" ColumnName="emergency_contact_phone" />
+          <ScalarProperty Name="is_negotiable" ColumnName="is_negotiable" />
+          <ScalarProperty Name="start_working" ColumnName="start_working" />
+          <ScalarProperty Name="is_ready_to_outofdown" ColumnName="is_ready_to_outofdown" />
+          <ScalarProperty Name="is_apply_other_place" ColumnName="is_apply_other_place" />
+          <ScalarProperty Name="apply_place" ColumnName="apply_place" />
+          <ScalarProperty Name="selection_phase" ColumnName="selection_phase" />
+          <ScalarProperty Name="is_ever_badly_sick" ColumnName="is_ever_badly_sick" />
+          <ScalarProperty Name="disease_name" ColumnName="disease_name" />
+          <ScalarProperty Name="disease_time" ColumnName="disease_time" />
+          <ScalarProperty Name="psychotest_needs" ColumnName="psychotest_needs" />
+          <ScalarProperty Name="psychotest_time" ColumnName="psychotest_time" />
+          <ScalarProperty Name="requirements_required" ColumnName="requirements_required" />
+          <ScalarProperty Name="other_notes" ColumnName="other_notes" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="x_marital_status">
+      <EntityTypeMapping TypeName="NgxsisDBModel.x_marital_status">
+        <MappingFragment StoreEntitySet="x_marital_status">
+          <ScalarProperty Name="marital_status_id" ColumnName="marital_status_id" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="created_on" ColumnName="created_on" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="modified_on" ColumnName="modified_on" />
+          <ScalarProperty Name="deleted_by" ColumnName="deleted_by" />
+          <ScalarProperty Name="deleted_on" ColumnName="deleted_on" />
+          <ScalarProperty Name="is_delete" ColumnName="is_delete" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="description" ColumnName="description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="x_menu_access">
+      <EntityTypeMapping TypeName="NgxsisDBModel.x_menu_access">
+        <MappingFragment StoreEntitySet="x_menu_access">
+          <ScalarProperty Name="menu_access_id" ColumnName="menu_access_id" />
+          <ScalarProperty Name="role_id" ColumnName="role_id" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="created_on" ColumnName="created_on" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="modified_on" ColumnName="modified_on" />
+          <ScalarProperty Name="deleted_by" ColumnName="deleted_by" />
+          <ScalarProperty Name="deleted_on" ColumnName="deleted_on" />
+          <ScalarProperty Name="is_delete" ColumnName="is_delete" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="x_menutree">
+      <EntityTypeMapping TypeName="NgxsisDBModel.x_menutree">
+        <MappingFragment StoreEntitySet="x_menutree">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="menu_image_url" ColumnName="menu_image_url" />
+          <ScalarProperty Name="menu_icon" ColumnName="menu_icon" />
+          <ScalarProperty Name="menu_order" ColumnName="menu_order" />
+          <ScalarProperty Name="menu_level" ColumnName="menu_level" />
+          <ScalarProperty Name="menu_parent" ColumnName="menu_parent" />
+          <ScalarProperty Name="menu_url" ColumnName="menu_url" />
+          <ScalarProperty Name="menu_type" ColumnName="menu_type" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="created_on" ColumnName="created_on" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="modified_on" ColumnName="modified_on" />
+          <ScalarProperty Name="deleted_by" ColumnName="deleted_by" />
+          <ScalarProperty Name="deleted_on" ColumnName="deleted_on" />
+          <ScalarProperty Name="is_delete" ColumnName="is_delete" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="x_note_type">
+      <EntityTypeMapping TypeName="NgxsisDBModel.x_note_type">
+        <MappingFragment StoreEntitySet="x_note_type">
+          <ScalarProperty Name="note_type_id" ColumnName="note_type_id" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="created_on" ColumnName="created_on" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="modified_on" ColumnName="modified_on" />
+          <ScalarProperty Name="deleted_by" ColumnName="deleted_by" />
+          <ScalarProperty Name="deleted_on" ColumnName="deleted_on" />
+          <ScalarProperty Name="is_delete" ColumnName="is_delete" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="description" ColumnName="description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="x_online_test">
+      <EntityTypeMapping TypeName="NgxsisDBModel.x_online_test">
+        <MappingFragment StoreEntitySet="x_online_test">
+          <ScalarProperty Name="online_test_id" ColumnName="online_test_id" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="created_on" ColumnName="created_on" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="modified_on" ColumnName="modified_on" />
+          <ScalarProperty Name="deleted_by" ColumnName="deleted_by" />
+          <ScalarProperty Name="deleted_on" ColumnName="deleted_on" />
+          <ScalarProperty Name="is_delete" ColumnName="is_delete" />
+          <ScalarProperty Name="biodata_id" ColumnName="biodata_id" />
+          <ScalarProperty Name="period_code" ColumnName="period_code" />
+          <ScalarProperty Name="period" ColumnName="period" />
+          <ScalarProperty Name="test_date" ColumnName="test_date" />
+          <ScalarProperty Name="expired_test" ColumnName="expired_test" />
+          <ScalarProperty Name="user_access" ColumnName="user_access" />
+          <ScalarProperty Name="status" ColumnName="status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="x_online_test_detail">
+      <EntityTypeMapping TypeName="NgxsisDBModel.x_online_test_detail">
+        <MappingFragment StoreEntitySet="x_online_test_detail">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="create_on" ColumnName="create_on" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="modified_on" ColumnName="modified_on" />
+          <ScalarProperty Name="delete_by" ColumnName="delete_by" />
+          <ScalarProperty Name="delete_on" ColumnName="delete_on" />
+          <ScalarProperty Name="is_delete" ColumnName="is_delete" />
+          <ScalarProperty Name="online_test_id" ColumnName="online_test_id" />
+          <ScalarProperty Name="test_type_id" ColumnName="test_type_id" />
+          <ScalarProperty Name="test_order" ColumnName="test_order" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="x_organisasi">
+      <EntityTypeMapping TypeName="NgxsisDBModel.x_organisasi">
+        <MappingFragment StoreEntitySet="x_organisasi">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="created_on" ColumnName="created_on" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="modified_on" ColumnName="modified_on" />
+          <ScalarProperty Name="deleted_by" ColumnName="deleted_by" />
+          <ScalarProperty Name="deleted_on" ColumnName="deleted_on" />
+          <ScalarProperty Name="is_delete" ColumnName="is_delete" />
+          <ScalarProperty Name="biodata_id" ColumnName="biodata_id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="position" ColumnName="position" />
+          <ScalarProperty Name="entry_year" ColumnName="entry_year" />
+          <ScalarProperty Name="exit_year" ColumnName="exit_year" />
+          <ScalarProperty Name="responsibility" ColumnName="responsibility" />
+          <ScalarProperty Name="notes" ColumnName="notes" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="x_pe_referensi">
+      <EntityTypeMapping TypeName="NgxsisDBModel.x_pe_referensi">
+        <MappingFragment StoreEntitySet="x_pe_referensi">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="created_on" ColumnName="created_on" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="modified_on" ColumnName="modified_on" />
+          <ScalarProperty Name="deleted_by" ColumnName="deleted_by" />
+          <ScalarProperty Name="deleted_on" ColumnName="deleted_on" />
+          <ScalarProperty Name="is_delete" ColumnName="is_delete" />
+          <ScalarProperty Name="biodata_id" ColumnName="biodata_id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="position" ColumnName="position" />
+          <ScalarProperty Name="address_phone" ColumnName="address_phone" />
+          <ScalarProperty Name="relation" ColumnName="relation" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="x_religion">
+      <EntityTypeMapping TypeName="NgxsisDBModel.x_religion">
+        <MappingFragment StoreEntitySet="x_religion">
+          <ScalarProperty Name="religion_id" ColumnName="religion_id" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="created_on" ColumnName="created_on" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="modified_on" ColumnName="modified_on" />
+          <ScalarProperty Name="deleted_by" ColumnName="deleted_by" />
+          <ScalarProperty Name="deleted_on" ColumnName="deleted_on" />
+          <ScalarProperty Name="is_delete" ColumnName="is_delete" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="description" ColumnName="description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="x_rencana_jadwal">
+      <EntityTypeMapping TypeName="NgxsisDBModel.x_rencana_jadwal">
+        <MappingFragment StoreEntitySet="x_rencana_jadwal">
+          <ScalarProperty Name="rencana_jadwal_id" ColumnName="rencana_jadwal_id" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="created_on" ColumnName="created_on" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="modified_on" ColumnName="modified_on" />
+          <ScalarProperty Name="deleted_by" ColumnName="deleted_by" />
+          <ScalarProperty Name="deleted_on" ColumnName="deleted_on" />
+          <ScalarProperty Name="is_delete" ColumnName="is_delete" />
+          <ScalarProperty Name="schedule_code" ColumnName="schedule_code" />
+          <ScalarProperty Name="shcedule_date" ColumnName="shcedule_date" />
+          <ScalarProperty Name="time" ColumnName="time" />
+          <ScalarProperty Name="ro" ColumnName="ro" />
+          <ScalarProperty Name="tro" ColumnName="tro" />
+          <ScalarProperty Name="schedule_type_id" ColumnName="schedule_type_id" />
+          <ScalarProperty Name="location" ColumnName="location" />
+          <ScalarProperty Name="other_ro_tro" ColumnName="other_ro_tro" />
+          <ScalarProperty Name="notes" ColumnName="notes" />
+          <ScalarProperty Name="is_automatic_mail" ColumnName="is_automatic_mail" />
+          <ScalarProperty Name="sent_date" ColumnName="sent_date" />
+          <ScalarProperty Name="status" ColumnName="status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="x_rencana_jadwal_detail">
+      <EntityTypeMapping TypeName="NgxsisDBModel.x_rencana_jadwal_detail">
+        <MappingFragment StoreEntitySet="x_rencana_jadwal_detail">
+          <ScalarProperty Name="rencana_jadwal_detail_id" ColumnName="rencana_jadwal_detail_id" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="created_on" ColumnName="created_on" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="modified_on" ColumnName="modified_on" />
+          <ScalarProperty Name="deleted_by" ColumnName="deleted_by" />
+          <ScalarProperty Name="deleted_on" ColumnName="deleted_on" />
+          <ScalarProperty Name="is_delete" ColumnName="is_delete" />
+          <ScalarProperty Name="rencana_jadwal_id" ColumnName="rencana_jadwal_id" />
+          <ScalarProperty Name="biodata_id" ColumnName="biodata_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="x_riwayat_pekerjaan">
+      <EntityTypeMapping TypeName="NgxsisDBModel.x_riwayat_pekerjaan">
+        <MappingFragment StoreEntitySet="x_riwayat_pekerjaan">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="created_on" ColumnName="created_on" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="modified_on" ColumnName="modified_on" />
+          <ScalarProperty Name="deleted_by" ColumnName="deleted_by" />
+          <ScalarProperty Name="deleted_on" ColumnName="deleted_on" />
+          <ScalarProperty Name="is_delete" ColumnName="is_delete" />
+          <ScalarProperty Name="biodata_id" ColumnName="biodata_id" />
+          <ScalarProperty Name="company_name" ColumnName="company_name" />
+          <ScalarProperty Name="city" ColumnName="city" />
+          <ScalarProperty Name="country" ColumnName="country" />
+          <ScalarProperty Name="join_year" ColumnName="join_year" />
+          <ScalarProperty Name="join_month" ColumnName="join_month" />
+          <ScalarProperty Name="resign_year" ColumnName="resign_year" />
+          <ScalarProperty Name="resign_month" ColumnName="resign_month" />
+          <ScalarProperty Name="last_position" ColumnName="last_position" />
+          <ScalarProperty Name="income" ColumnName="income" />
+          <ScalarProperty Name="is_it_related" ColumnName="is_it_related" />
+          <ScalarProperty Name="about_job" ColumnName="about_job" />
+          <ScalarProperty Name="exit_reason" ColumnName="exit_reason" />
+          <ScalarProperty Name="notes" ColumnName="notes" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="x_riwayat_pelatihan">
+      <EntityTypeMapping TypeName="NgxsisDBModel.x_riwayat_pelatihan">
+        <MappingFragment StoreEntitySet="x_riwayat_pelatihan">
+          <ScalarProperty Name="riwayat_pelatihan_id" ColumnName="riwayat_pelatihan_id" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="created_on" ColumnName="created_on" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="modified_on" ColumnName="modified_on" />
+          <ScalarProperty Name="deleted_by" ColumnName="deleted_by" />
+          <ScalarProperty Name="deleted_on" ColumnName="deleted_on" />
+          <ScalarProperty Name="is_delete" ColumnName="is_delete" />
+          <ScalarProperty Name="biodata_id" ColumnName="biodata_id" />
+          <ScalarProperty Name="training_name" ColumnName="training_name" />
+          <ScalarProperty Name="organizer" ColumnName="organizer" />
+          <ScalarProperty Name="project_name" ColumnName="project_name" />
+          <ScalarProperty Name="training_year" ColumnName="training_year" />
+          <ScalarProperty Name="training_month" ColumnName="training_month" />
+          <ScalarProperty Name="training_duration" ColumnName="training_duration" />
+          <ScalarProperty Name="time_period_id" ColumnName="time_period_id" />
+          <ScalarProperty Name="city" ColumnName="city" />
+          <ScalarProperty Name="country" ColumnName="country" />
+          <ScalarProperty Name="notes" ColumnName="notes" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="x_riwayat_pendidikan">
+      <EntityTypeMapping TypeName="NgxsisDBModel.x_riwayat_pendidikan">
+        <MappingFragment StoreEntitySet="x_riwayat_pendidikan">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="created_on" ColumnName="created_on" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="modified_on" ColumnName="modified_on" />
+          <ScalarProperty Name="deleted_by" ColumnName="deleted_by" />
+          <ScalarProperty Name="deleted_on" ColumnName="deleted_on" />
+          <ScalarProperty Name="is_delete" ColumnName="is_delete" />
+          <ScalarProperty Name="biodata_id" ColumnName="biodata_id" />
+          <ScalarProperty Name="school_name" ColumnName="school_name" />
+          <ScalarProperty Name="city" ColumnName="city" />
+          <ScalarProperty Name="country" ColumnName="country" />
+          <ScalarProperty Name="education_level_id" ColumnName="education_level_id" />
+          <ScalarProperty Name="entry_year" ColumnName="entry_year" />
+          <ScalarProperty Name="graduation_year" ColumnName="graduation_year" />
+          <ScalarProperty Name="major" ColumnName="major" />
+          <ScalarProperty Name="gpa" ColumnName="gpa" />
+          <ScalarProperty Name="notes" ColumnName="notes" />
+          <ScalarProperty Name="order" ColumnName="order" />
+          <ScalarProperty Name="judul_ta" ColumnName="judul_ta" />
+          <ScalarProperty Name="deskripsi_ta" ColumnName="deskripsi_ta" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="x_riwayat_proyek">
+      <EntityTypeMapping TypeName="NgxsisDBModel.x_riwayat_proyek">
+        <MappingFragment StoreEntitySet="x_riwayat_proyek">
+          <ScalarProperty Name="riwayat_proyek_id" ColumnName="riwayat_proyek_id" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="created_on" ColumnName="created_on" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="modified_on" ColumnName="modified_on" />
+          <ScalarProperty Name="deleted_by" ColumnName="deleted_by" />
+          <ScalarProperty Name="deleted_on" ColumnName="deleted_on" />
+          <ScalarProperty Name="is_delete" ColumnName="is_delete" />
+          <ScalarProperty Name="riwayat_pekerjaan_id" ColumnName="riwayat_pekerjaan_id" />
+          <ScalarProperty Name="start_year" ColumnName="start_year" />
+          <ScalarProperty Name="start_month" ColumnName="start_month" />
+          <ScalarProperty Name="project_name" ColumnName="project_name" />
+          <ScalarProperty Name="project_duration" ColumnName="project_duration" />
+          <ScalarProperty Name="time_period_id" ColumnName="time_period_id" />
+          <ScalarProperty Name="client" ColumnName="client" />
+          <ScalarProperty Name="project_position" ColumnName="project_position" />
+          <ScalarProperty Name="description" ColumnName="description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="x_role">
+      <EntityTypeMapping TypeName="NgxsisDBModel.x_role">
+        <MappingFragment StoreEntitySet="x_role">
+          <ScalarProperty Name="role_id" ColumnName="role_id" />
+          <ScalarProperty Name="code" ColumnName="code" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="created_on" ColumnName="created_on" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="modified_on" ColumnName="modified_on" />
+          <ScalarProperty Name="deleted_by" ColumnName="deleted_by" />
+          <ScalarProperty Name="deleted_on" ColumnName="deleted_on" />
+          <ScalarProperty Name="is_delete" ColumnName="is_delete" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="x_schedule_type">
+      <EntityTypeMapping TypeName="NgxsisDBModel.x_schedule_type">
+        <MappingFragment StoreEntitySet="x_schedule_type">
+          <ScalarProperty Name="schedule_type_id" ColumnName="schedule_type_id" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="created_on" ColumnName="created_on" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="modified_on" ColumnName="modified_on" />
+          <ScalarProperty Name="deleted_by" ColumnName="deleted_by" />
+          <ScalarProperty Name="deleted_on" ColumnName="deleted_on" />
+          <ScalarProperty Name="is_delete" ColumnName="is_delete" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="description" ColumnName="description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="x_sertifikasi">
+      <EntityTypeMapping TypeName="NgxsisDBModel.x_sertifikasi">
+        <MappingFragment StoreEntitySet="x_sertifikasi">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="create_on" ColumnName="create_on" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="modified_on" ColumnName="modified_on" />
+          <ScalarProperty Name="delete_by" ColumnName="delete_by" />
+          <ScalarProperty Name="delete_on" ColumnName="delete_on" />
+          <ScalarProperty Name="is_delete" ColumnName="is_delete" />
+          <ScalarProperty Name="biodata_id" ColumnName="biodata_id" />
+          <ScalarProperty Name="certificate_name" ColumnName="certificate_name" />
+          <ScalarProperty Name="publisher" ColumnName="publisher" />
+          <ScalarProperty Name="valid_start_year" ColumnName="valid_start_year" />
+          <ScalarProperty Name="valid_start_month" ColumnName="valid_start_month" />
+          <ScalarProperty Name="until_year" ColumnName="until_year" />
+          <ScalarProperty Name="until_month" ColumnName="until_month" />
+          <ScalarProperty Name="notes" ColumnName="notes" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="x_skill_level">
+      <EntityTypeMapping TypeName="NgxsisDBModel.x_skill_level">
+        <MappingFragment StoreEntitySet="x_skill_level">
+          <ScalarProperty Name="skill_level_id" ColumnName="skill_level_id" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="created_on" ColumnName="created_on" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="modified_on" ColumnName="modified_on" />
+          <ScalarProperty Name="deleted_by" ColumnName="deleted_by" />
+          <ScalarProperty Name="deleted_on" ColumnName="deleted_on" />
+          <ScalarProperty Name="is_delete" ColumnName="is_delete" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="description" ColumnName="description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="x_sumber_loker">
+      <EntityTypeMapping TypeName="NgxsisDBModel.x_sumber_loker">
+        <MappingFragment StoreEntitySet="x_sumber_loker">
+          <ScalarProperty Name="sumber_loker_id" ColumnName="sumber_loker_id" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="created_on" ColumnName="created_on" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="modified_on" ColumnName="modified_on" />
+          <ScalarProperty Name="deleted_by" ColumnName="deleted_by" />
+          <ScalarProperty Name="deleted_on" ColumnName="deleted_on" />
+          <ScalarProperty Name="is_delete" ColumnName="is_delete" />
+          <ScalarProperty Name="biodata_id" ColumnName="biodata_id" />
+          <ScalarProperty Name="vacancy_source" ColumnName="vacancy_source" />
+          <ScalarProperty Name="candidate_type" ColumnName="candidate_type" />
+          <ScalarProperty Name="event_name" ColumnName="event_name" />
+          <ScalarProperty Name="career_center_name" ColumnName="career_center_name" />
+          <ScalarProperty Name="referrer_name" ColumnName="referrer_name" />
+          <ScalarProperty Name="referrer_phone" ColumnName="referrer_phone" />
+          <ScalarProperty Name="referrer_email" ColumnName="referrer_email" />
+          <ScalarProperty Name="other_source" ColumnName="other_source" />
+          <ScalarProperty Name="last_income" ColumnName="last_income" />
+          <ScalarProperty Name="apply_date" ColumnName="apply_date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="x_test_type">
+      <EntityTypeMapping TypeName="NgxsisDBModel.x_test_type">
+        <MappingFragment StoreEntitySet="x_test_type">
+          <ScalarProperty Name="test_type_id" ColumnName="test_type_id" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="created_on" ColumnName="created_on" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="modified_on" ColumnName="modified_on" />
+          <ScalarProperty Name="deleted_by" ColumnName="deleted_by" />
+          <ScalarProperty Name="deleted_on" ColumnName="deleted_on" />
+          <ScalarProperty Name="is_delete" ColumnName="is_delete" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="description" ColumnName="description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="x_time_period">
+      <EntityTypeMapping TypeName="NgxsisDBModel.x_time_period">
+        <MappingFragment StoreEntitySet="x_time_period">
+          <ScalarProperty Name="time_periode_id" ColumnName="time_periode_id" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="created_on" ColumnName="created_on" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="modified_on" ColumnName="modified_on" />
+          <ScalarProperty Name="deleted_by" ColumnName="deleted_by" />
+          <ScalarProperty Name="deleted_on" ColumnName="deleted_on" />
+          <ScalarProperty Name="is_delete" ColumnName="is_delete" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="description" ColumnName="description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="x_undangan">
+      <EntityTypeMapping TypeName="NgxsisDBModel.x_undangan">
+        <MappingFragment StoreEntitySet="x_undangan">
+          <ScalarProperty Name="undangan_id" ColumnName="undangan_id" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="created_on" ColumnName="created_on" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="modified_on" ColumnName="modified_on" />
+          <ScalarProperty Name="deleted_by" ColumnName="deleted_by" />
+          <ScalarProperty Name="deleted_on" ColumnName="deleted_on" />
+          <ScalarProperty Name="is_delete" ColumnName="is_delete" />
+          <ScalarProperty Name="schedule_type_id" ColumnName="schedule_type_id" />
+          <ScalarProperty Name="invitation_date" ColumnName="invitation_date" />
+          <ScalarProperty Name="ro" ColumnName="ro" />
+          <ScalarProperty Name="tro" ColumnName="tro" />
+          <ScalarProperty Name="other_ro_tro" ColumnName="other_ro_tro" />
+          <ScalarProperty Name="location" ColumnName="location" />
+          <ScalarProperty Name="status" ColumnName="status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="x_undangan_detail">
+      <EntityTypeMapping TypeName="NgxsisDBModel.x_undangan_detail">
+        <MappingFragment StoreEntitySet="x_undangan_detail">
+          <ScalarProperty Name="undanga_detail_id" ColumnName="undanga_detail_id" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="create_on" ColumnName="create_on" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="modified_on" ColumnName="modified_on" />
+          <ScalarProperty Name="delete_by" ColumnName="delete_by" />
+          <ScalarProperty Name="delete_on" ColumnName="delete_on" />
+          <ScalarProperty Name="is_delete" ColumnName="is_delete" />
+          <ScalarProperty Name="rencana_jadwal_id" ColumnName="rencana_jadwal_id" />
+          <ScalarProperty Name="biodata_id" ColumnName="biodata_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="x_userrole">
+      <EntityTypeMapping TypeName="NgxsisDBModel.x_userrole">
+        <MappingFragment StoreEntitySet="x_userrole">
+          <ScalarProperty Name="userrole_id" ColumnName="userrole_id" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="created_on" ColumnName="created_on" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="modified_on" ColumnName="modified_on" />
+          <ScalarProperty Name="deleted_by" ColumnName="deleted_by" />
+          <ScalarProperty Name="deleted_on" ColumnName="deleted_on" />
+          <ScalarProperty Name="is_delete" ColumnName="is_delete" />
+          <ScalarProperty Name="addrbok_id" ColumnName="addrbok_id" />
+          <ScalarProperty Name="role_id" ColumnName="role_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="SelectOrganisasi" FunctionName="NgxsisDBModel.Store.SelectOrganisasi">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="NgxsisDBModel.SelectOrganisasi_Result">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="created_on" ColumnName="created_on" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="modified_on" ColumnName="modified_on" />
+          <ScalarProperty Name="deleted_by" ColumnName="deleted_by" />
+          <ScalarProperty Name="deleted_on" ColumnName="deleted_on" />
+          <ScalarProperty Name="is_delete" ColumnName="is_delete" />
+          <ScalarProperty Name="biodata_id" ColumnName="biodata_id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="position" ColumnName="position" />
+          <ScalarProperty Name="entry_year" ColumnName="entry_year" />
+          <ScalarProperty Name="exit_year" ColumnName="exit_year" />
+          <ScalarProperty Name="responsibility" ColumnName="responsibility" />
+          <ScalarProperty Name="notes" ColumnName="notes" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>
